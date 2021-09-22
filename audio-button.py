@@ -1,5 +1,6 @@
 import RPi.GPIO as gpio
-import time, os
+import time 
+import os
 
 gpio.setmode(gpio.BCM)
 gpio.setup(23, gpio.IN, gpio.PUD_UP)
