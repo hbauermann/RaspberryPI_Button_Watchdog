@@ -1,5 +1,6 @@
 import RPi.GPIO as gpio
-import time, os
+import time 
+import os
 
 ## PINS SETUP ##
 gpio.setmode(gpio.BCM)
